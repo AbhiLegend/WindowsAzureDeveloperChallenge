@@ -1,0 +1,1 @@
+CREATE LOGIN HoLUser WITH password='Password1'
