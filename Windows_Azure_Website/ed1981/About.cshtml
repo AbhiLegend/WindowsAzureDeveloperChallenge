@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "CarbonFootprintInfo";
+}
+<h1>Carbon FootPrint related  tweets....</h1>
+@{
+    var client = new WebClient();
+    var json = client.DownloadString("http://search.twitter.com/search.json?q=carbonfootprint");
+    var search = Json.Decode(json);
+}
+
+@foreach(var result in search.results){
+    <p><strong>@result.from_user (@result.from_user_name)</strong><br />
+        @result.text<br />
+        <em>@DateTime.Parse(result.created_at).ToString("F")</em>
+    </p>
+}
+
+
+
+<hgroup class="title">
+    <h1>@Page.Title.</h1>
+    <h2>The important Information.</h2>
+</hgroup>
+
+<article>
+    
+
+    <p>
+        @Video.Flash(path: "animation/1.swf",
+                 width: "400",
+                 height: "600",
+                 play: true,
+                 loop: true,
+                 menu:  false,
+                 bgColor: "red",
+                 quality: "medium",
+                 scale: "exactfit",
+                 windowMode: "transparent")
+
+        
+        
+
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+       Will be updated with more data
+    </p>
+    <ul>
+        <li><a href="~/">Home</a></li>
+        <li><a href="~/About">CarbonFootPrintInfo</a></li>
+        <li><a href="~/Contact">WorldWeather</a></li>
+    </ul>
+</aside>

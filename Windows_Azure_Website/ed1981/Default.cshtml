@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Home Page";
+}
+<h1>Carbon Emission related tweets....</h1>
+@{
+    var client = new WebClient();
+    var json = client.DownloadString("http://search.twitter.com/search.json?q=carbon emission");
+    var search = Json.Decode(json);
+}
+
+@foreach(var result in search.results){
+    <p><strong>@result.from_user (@result.from_user_name)</strong><br />
+        @result.text<br />
+        <em>@DateTime.Parse(result.created_at).ToString("F")</em>
+    </p>
+}
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@Page.Title.</h1>
+            <h2>Why the CLimate condition is affecting us?.</h2>
+        </hgroup>
+        
+        <h1>CARBON FOOTPRINT INFORMATION</h1>
+        <p>A carbon footprint has historically been defined by Championne as "the total sets of greenhouse gas (GHG) emissions caused by an organization, event, product or person."[1]
+
+However, calculating the total carbon footprint is impossible due to the large amount of data required and the fact that carbon dioxide can be produced by natural occurrences. It is for this reason that Wright, Kemp, and Williams, writing in the journal Carbon Management, have suggested a more practicable definition:
+
+"A measure of the total amount of carbon dioxide (CO2) and methane (CH4) emissions of a defined population, system or activity, considering all relevant sources, sinks and storage within the spatial and temporal boundary of the population, system or activity of interest. Calculated as carbon dioxide equivalent (CO2e) using the relevant 100-year global warming potential (GWP100)."[2]
+
+Greenhouse gases can be emitted through transport, land clearance, and the production and consumption of food, fuels, manufactured goods, materials, wood, roads, buildings, and services.[3] For simplicity of reporting, it is often expressed in terms of the amount of carbon dioxide, or its equivalent of other GHGs, emitted.
+
+Most of the carbon footprint emissions for the average U.S. household come from "indirect" sources, i.e. fuel burned to produce goods far away from the final consumer. These are distinguished from emissions which come from burning fuel directly in one's car or stove, commonly referred to as "direct" sources of the consumer's carbon footprint.[4]
+
+The concept name of the carbon footprint originates from ecological footprint,discussion,[5] which was developed by Rees and Wackernagel in the 1990s which estimates the number of "earths" that would theoretically be required if everyone on the planet consumed resources at the same level as the person calculating their ecological footprint. However, carbon footprints are much more specific than ecological footprints since they measure direct emissions of gasses that cause climate change into the atmosphere.
+
+Measuring Carbon Footprints
+
+An individual's, nation's, or organization's carbon footprint can be measured by undertaking a GHG emissions assessment or other calculative activities denoted as carbon accounting. Once the size of a carbon footprint is known, a strategy can be devised to reduce it, e.g. by technological developments, better process and product management, changed Green Public or Private Procurement (GPP), carbon capture, consumption strategies, and others. Several free online carbon footprint calculators exist, with at least one supported by publicly available peer-reviewed data and calculations from the University of California, Berkeley's CoolClimate Network research consortium.[6][7]
+            
+The mitigation of carbon footprints through the development of alternative projects, such as solar or wind energy or reforestation, represents one way of reducing a carbon footprint and is often known as Carbon offsetting.
+
+The main influences on carbon footprints include population, economic output, and energy and carbon intensity of the economy.[8] These factors are the main targets of individuals and businesses in order to decrease carbon footprints. Scholars suggest the most effective way to decrease a carbon footprint is to either decrease the amount of energy needed for production or to decrease the dependence on carbon emitting fuels.[8]
+</p>
+    </div>
+</section>
+}
+
+<h3>Get more Information:</h3>
+
+<ol class="round">
+    <li class="one">
+        <h5>CHANGING WORLD SCENARIO</h5>
+        This sit from NASA gives you the Climate conditions as per NASA details.
+        <a href="http://climate.nasa.gov/">Learn more…</a>
+    </li>
+
+    <li class="two">
+        <h5>CARBON FOOTPRINT CALCULATION</h5>
+        this website allows you to calculate carbon footprint.
+        <a href="http://www.carbonfootprint.com/calculator.aspx">Calculate..</a>
+    </li>
+
+    
+</ol>
