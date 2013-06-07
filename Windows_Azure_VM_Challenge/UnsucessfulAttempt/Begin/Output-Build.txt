@@ -1,0 +1,162 @@
+﻿1>------ Build started: Project: WebApplication7, Configuration: Release Any CPU ------
+1>  WebApplication7 -> c:\users\santu\documents\visual studio 2012\Projects\WebApplication7\WebApplication7\bin\WebApplication7.dll
+2>------ Publish started: Project: WebApplication7, Configuration: Release Any CPU ------
+2>ExcludeFilesByExtension
+2>ExcludeFilesByExtension
+2>Transformed Web.config using c:\users\santu\documents\visual studio 2012\Projects\WebApplication7\WebApplication7\Web.Release.config into obj\Release\TransformWebConfig\transformed\Web.config.
+2>Auto ConnectionString Transformed Account\Web.config into obj\Release\CSAutoParameterize\transformed\Account\Web.config.
+2>Auto ConnectionString Transformed obj\Release\TransformWebConfig\transformed\Web.config into obj\Release\CSAutoParameterize\transformed\Web.config.
+2>Copying all files to temporary location below for package/publish:
+2>obj\Release\Package\PackageTmp.
+2>Start Web Deploy Publish the Application/package to https://waws-prod-ch1-001.publish.azurewebsites.windows.net/msdeploy.axd?site=CW1 ...
+2>Adding directory (CW1\Account).
+2>Adding directory (CW1\Content).
+2>Adding directory (CW1\Content\themes).
+2>Adding directory (CW1\Content\themes\base).
+2>Adding directory (CW1\Content\themes\base\images).
+2>Adding directory (CW1\Content\themes\base\minified).
+2>Adding directory (CW1\Content\themes\base\minified\images).
+2>Adding directory (CW1\Images).
+2>Adding directory (CW1\Scripts).
+2>Adding directory (CW1\Scripts\WebForms).
+2>Adding directory (CW1\Scripts\WebForms\MSAjax).
+2>Adding ACL's for path (CW1)
+2>Adding ACL's for path (CW1)
+2>Adding file (CW1\About.aspx).
+2>Adding file (CW1\Account\Login.aspx).
+2>Adding file (CW1\Account\Manage.aspx).
+2>Adding file (CW1\Account\OpenAuthProviders.ascx).
+2>Adding file (CW1\Account\Register.aspx).
+2>Adding file (CW1\Account\RegisterExternalLogin.aspx).
+2>Adding file (CW1\Account\Web.config).
+2>Adding file (CW1\bin\Antlr3.Runtime.dll).
+2>Adding file (CW1\bin\AspNet.ScriptManager.jQuery.dll).
+2>Adding file (CW1\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.AspNet.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.Core.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.OAuth.Consumer.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.OAuth.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.OpenId.dll).
+2>Adding file (CW1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll).
+2>Adding file (CW1\bin\EntityFramework.dll).
+2>Adding file (CW1\bin\Microsoft.AspNet.FriendlyUrls.dll).
+2>Adding file (CW1\bin\Microsoft.AspNet.Membership.OpenAuth.dll).
+2>Adding file (CW1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll).
+2>Adding file (CW1\bin\Microsoft.ScriptManager.MSAjax.dll).
+2>Adding file (CW1\bin\Microsoft.ScriptManager.WebForms.dll).
+2>Adding file (CW1\bin\Microsoft.Web.Infrastructure.dll).
+2>Adding file (CW1\bin\System.Web.Optimization.dll).
+2>Adding file (CW1\bin\System.Web.Providers.dll).
+2>Adding file (CW1\bin\WebApplication7.dll).
+2>Adding file (CW1\bin\WebGrease.dll).
+2>Adding file (CW1\Bundle.config).
+2>Adding file (CW1\Contact.aspx).
+2>Adding file (CW1\Content\Site.css).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png).
+2>Adding file (CW1\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png).
+2>Adding file (CW1\Content\themes\base\images\ui-icons_222222_256x240.png).
+2>Adding file (CW1\Content\themes\base\images\ui-icons_2e83ff_256x240.png).
+2>Adding file (CW1\Content\themes\base\images\ui-icons_454545_256x240.png).
+2>Adding file (CW1\Content\themes\base\images\ui-icons_888888_256x240.png).
+2>Adding file (CW1\Content\themes\base\images\ui-icons_cd0a0a_256x240.png).
+2>Adding file (CW1\Content\themes\base\jquery-ui.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.accordion.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.all.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.autocomplete.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.base.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.button.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.core.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.datepicker.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.dialog.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.progressbar.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.resizable.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.selectable.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.slider.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.tabs.css).
+2>Adding file (CW1\Content\themes\base\jquery.ui.theme.css).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-icons_222222_256x240.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-icons_454545_256x240.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-icons_888888_256x240.png).
+2>Adding file (CW1\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png).
+2>Adding file (CW1\Content\themes\base\minified\jquery-ui.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.accordion.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.autocomplete.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.button.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.core.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.datepicker.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.dialog.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.progressbar.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.resizable.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.selectable.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.slider.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.tabs.min.css).
+2>Adding file (CW1\Content\themes\base\minified\jquery.ui.theme.min.css).
+2>Adding file (CW1\Default.aspx).
+2>Adding file (CW1\favicon.ico).
+2>Adding file (CW1\Global.asax).
+2>Adding file (CW1\Images\accent.png).
+2>Adding file (CW1\Images\bullet.png).
+2>Adding file (CW1\Images\heroAccent.png).
+2>Adding file (CW1\Images\orderedList0.png).
+2>Adding file (CW1\Images\orderedList1.png).
+2>Adding file (CW1\Images\orderedList2.png).
+2>Adding file (CW1\Images\orderedList3.png).
+2>Adding file (CW1\Images\orderedList4.png).
+2>Adding file (CW1\Images\orderedList5.png).
+2>Adding file (CW1\Images\orderedList6.png).
+2>Adding file (CW1\Images\orderedList7.png).
+2>Adding file (CW1\Images\orderedList8.png).
+2>Adding file (CW1\Images\orderedList9.png).
+2>Adding file (CW1\packages.config).
+2>Adding file (CW1\Scripts\jquery-1.8.2.js).
+2>Adding file (CW1\Scripts\jquery-1.8.2.min.js).
+2>Adding file (CW1\Scripts\jquery-ui-1.8.24.js).
+2>Adding file (CW1\Scripts\jquery-ui-1.8.24.min.js).
+2>Adding file (CW1\Scripts\modernizr-2.6.2.js).
+2>Adding file (CW1\Scripts\WebForms\DetailsView.js).
+2>Adding file (CW1\Scripts\WebForms\Focus.js).
+2>Adding file (CW1\Scripts\WebForms\GridView.js).
+2>Adding file (CW1\Scripts\WebForms\Menu.js).
+2>Adding file (CW1\Scripts\WebForms\MenuStandards.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjax.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js).
+2>Adding file (CW1\Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js).
+2>Adding file (CW1\Scripts\WebForms\SmartNav.js).
+2>Adding file (CW1\Scripts\WebForms\TreeView.js).
+2>Adding file (CW1\Scripts\WebForms\WebForms.js).
+2>Adding file (CW1\Scripts\WebForms\WebParts.js).
+2>Adding file (CW1\Scripts\WebForms\WebUIValidation.js).
+2>Adding file (CW1\Scripts\_references.js).
+2>Adding file (CW1\Site.Master).
+2>Adding file (CW1\Site.Mobile.Master).
+2>Adding file (CW1\ViewSwitcher.ascx).
+2>Updating file (CW1\Web.config).
+2>Adding ACL's for path (CW1)
+2>Adding ACL's for path (CW1)
+2>Publish is successfully deployed.
+2>Site was published successfully http://cw1.azurewebsites.net/
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========
